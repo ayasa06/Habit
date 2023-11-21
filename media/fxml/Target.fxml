@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.TopViewcontroller">
+   <children>
+      <Circle fx:id="circle" fill="#aaaaaa96" layoutX="172.0" layoutY="162.0" radius="102.0" stroke="#737373" strokeType="INSIDE" />
+      <Button layoutX="125.0" layoutY="189.0" mnemonicParsing="false" onAction="#Btn_count" prefHeight="33.0" prefWidth="80.0" text="count" textFill="#737373" />
+      <Label alignment="CENTER" layoutX="265.0" prefHeight="39.0" prefWidth="58.0" text="記録する" textFill="#737373">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="testLabel" alignment="CENTER" layoutX="314.0" layoutY="83.0" prefHeight="53.0" prefWidth="196.0" text="Lavel" textFill="#737373">
+         <font>
+            <Font size="36.0" />
+         </font></Label>
+      <Label fx:id="enthusiasm_label" alignment="CENTER" layoutX="324.0" layoutY="200.0" prefHeight="53.0" prefWidth="178.0" text="Label" textFill="#737373">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Line endX="509.0" endY="-3.814697265625E-6" layoutX="91.0" layoutY="39.0" startX="-100.0" stroke="#737373" />
+      <Line endX="500.0" layoutX="99.0" layoutY="338.0" startX="-151.00001525878906" stroke="#737373" />
+      <Label fx:id="counter" alignment="CENTER" contentDisplay="CENTER" layoutX="372.0" layoutY="136.0" prefHeight="53.0" prefWidth="80.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="196.0" layoutY="347.0" mnemonicParsing="false" onAction="#Btn_return" prefHeight="46.0" prefWidth="73.0" text="記録する" textFill="#737373" />
+      <Button layoutX="331.0" layoutY="347.0" mnemonicParsing="false" onAction="#Btn_history" prefHeight="46.0" prefWidth="73.0" text="振り返る" textFill="#737373" />
+      <Label layoutX="398.0" layoutY="65.0" text="目標" />
+   </children>
+</Pane>
